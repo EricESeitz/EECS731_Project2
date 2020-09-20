@@ -1,0 +1,21 @@
+Raw data has been downloaded from: https://www.kaggle.com/kingburrito666/shakespeare-plays according to the project description
+
+Data:
+We load the .csv file into Pandas using the following command:
+pd.read_csv(r"C:\Users\Eric\Documents\EECS 731\Project 2\data\archive\Shakespeare_data.csv")
+
+Now we need to formulate one or two ideas on how feature engineering would help the data set to establish additional value using exploratory data analysis.
+
+Goal: 
+Build one or more classification models to determine the player using the other columns as features
+
+We have the following header information for the play file:
+Dataline 	Play 	PlayerLinenumber 	ActSceneLine 	Player 	PlayerLine
+
+Ideas:
+How might this help our goal of determining the player using the other columns as features?
+We could extrapolate the most common words said by a player?
+We could also extrapolate which player shows up in which play. 
+Maybe also find out how often a player shows up? Weight it more towards frequent players.
+
+Thus, if we know the line of the play, the play itself, and the frequency of which players show up we might be able to extrapolate out the player.
