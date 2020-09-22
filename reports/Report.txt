@@ -28,11 +28,15 @@ I'll be trying StatsModels first as I'll have more numerical data based on each 
 I'd also like to try Text classificationwith PyTorch 'TorchText'
  - One hot encoding on play column? Probably too late to try this
 
- I'm going to limit the search to Hamlet's play for now. This way I'm not stuck running over the entire data set.
- Thus, my goal is to predict the player when given a line from Hamlet
+I'm going to limit the search to Hamlet's play for now. This way I'm not stuck running over the entire data set.
+Thus, my goal is to predict the player when given a line from Hamlet
 
- Results:
- Text Classification - FAILURE
- I don't know if it's my inexperience with Python or total lack of understanding of PyTorch TorchText but I've spent hours trying to muddle something together and I can't get
- any data set to be loaded into the test program. I'm extremely frustrated by this because I think this was my best shot as Text Classification seems like the ideal solution.
- The test data, news sources, looks promising but
+I've spent quite a lot of time troubleshooting PyTorch and cuda as multiple errors have been plaguing me.
+
+Results:
+Text Classification - FAILURE
+I don't know if it's my inexperience with Python or total lack of understanding of PyTorch TorchText but I've spent hours trying to muddle something together and I can't get
+any data set to be loaded into the test program. I'm extremely frustrated by this because I think this was my best shot as Text Classification seems like the ideal solution.
+The test data, news sources, looks promising but I just couldn't get data loaded.
+
+I feel like I'm 80% of the way there but just couldn't get past the last hurdle.
